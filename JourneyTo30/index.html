@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<!--Author: Jasmine McClurkin-->
+<!--Date: May 1, 2020-->
+<head>
+   <title>Journey to 30</title> 
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+        function sendmail() {
+           alert ("You are now being directed to your mail application.");
+            window.location = "mailto:jasminemcclurkin89@gmail.com?subject='New Website Email'&&body=" + document.form.textbox.value;
+        }
+        
+    
+    </script>
+
+</head>
+<body>
+    <div class="wrap">
+    <header>
+        <div class="top1">
+            <img class="palmtrees" src="images/palmtrees.png" alt="palm trees">
+            <img class="palmtrees" src="images/palmtrees.png" alt="palm trees">
+            <img class="palmtrees" src="images/palmtrees.png" alt="palm trees">
+            <img class="palmtrees" src="images/palmtrees.png" alt="palm trees">
+            <a href="index.html" class="top2">
+                <h1 id="titles"><span id="titleJ">J</span><span id="titleRest">ourney</span> <span id="titleTo">to</span> <span id="title30">30</span></h1>
+                <div id="homeButton1">Home</div>
+                <div id="homeButton2">Home</div>
+            </a>
+        </div>
+    </header>
+    <nav>
+        <ul id="navLeft" > 
+            <li class="navLeft"><a href="redondo.html">Redondo Beach, CA</a></li>
+            <li class ="navLeft"><a href="ftlauderdale.html">Ft. Lauderdale, FL</a></li>
+        </ul>   
+        <ul id="navRight">
+            <li id="navRight1"><a href="playa.html">Playa Del Carmen, MX</a></li>
+            <li id="navRight2"><a href="nassau.html">Nassau, Bahamas</a></li>
+        </ul>
+    </nav>
+    <article id="intro">
+        <p>Hello! My name is Jasmine. Welcome to my Journey to 30!!</p>
+        <p>In 2019, my friends and I traveled the world to celebrate us beginning a new decade of our lives. This epic adventure introduced us to beautiful hidden paradises, creative cuisines, and local treasures.</p>
+        <p>Now, none of us have much of a disposable income, yet we managed to explore the world. I will show the tricks of having the best vacation, all without breaking the bank.</p>
+    </article>
+    <article id="emailMe">
+    <p id="outsideForm">Have Questions?</p>
+    <div id="borderBox"></div>
+    <section id="formArea">
+        <form name="form">
+            <label for="name">Name: </label><br>
+            <input type="text" name="name" id="name"><br>
+            <label for="email">E-Mail: </label><br>
+            <input type="email" name="email" id="email"><br>
+            <label for="message">Message: </label><br>
+            <textarea rows="10" cols="50" name="textbox"></textarea><br>
+            <input type="submit" onclick="sendmail()" value="Send">
+                   
+        </form>
+    </section>
+    </article>
+    <img id="introPic" src="images/introPic.JPG" alt="Jasmine on airplain"> 
+    <aside id="destinations">
+        <h1>Destinations</h1>
+        <a href="redondo.html" class="asideNav">
+            <img src="images/redondoSkyline.jpg" alt="redondo beach skyline" class="secondNav">
+            <h2>Redondo Beach, CA</h2>
+        </a>
+        <br>
+        <a href="ftlauderdale.html" class="asideNav">
+            <img src="images/ftlauderdaleSkyline.jpg" alt="ft lauderdale skyline" class="secondNav">
+            <h2>Fort Lauderdale, FL</h2>
+        </a>
+        <br>
+        <a href="playa.html" class="asideNav">
+            <img src="images/playaSkyline.png" alt="playa del carmen skyline" class="secondNav">
+            <h2>Playa del Carmen, MX</h2>
+        </a>
+        <br>
+        <a href="nassau.html" class="asideNav">
+            <img src="images/nassauSkyline.png" alt="nassau bahamas skyline" class="secondNav">
+            <h2>Nassau, BS</h2>
+        </a>
+    </aside>
+<div id="tipsDiv">    
+    <aside id="tips">
+        <h1>Tips</h1>
+        <img src="images/purpleNote.png" alt="purple sticky note" id="purpleNote1">
+        <p id="tip1">Book Flights 4 Weeks Out<br>on Wednesday at 12am</p>
+        <img src="images/yellowNote.png" alt="yellow sticky note" id="yellowNote1">
+        <p id="tip2">Use Google Flights<br> and Southwest<br>to find the best deal</p>
+        <img src="images/purpleNote.png" alt="purple sticky note" id="purpleNote2">
+        <p id="tip3">Bundle your<br> hotel and car, <br>but not the flight</p>
+        <img src="images/yellowNote.png" alt="yellow sticky note" id="yellowNote2">
+        <p id="tip4">HAVE FUN!!!</p>
+    </aside></div>
+        <footer id="homepageFooter">
+        Jasmine McClurkin<br>
+        May 10, 2020<br>
+        ITS330<br>
+        Russell Frith
+    </footer>
+    </div>
+
+</body>
+</html>
